@@ -31,14 +31,23 @@ export const FlushSyncDemo = ({ title }) => {
   };
 
   return (
-    <div>
+    <div className='demoContainer'>
       <h2>{title}</h2>
-      <p>Count: {count}</p>
-      <p>Toggle: {toggle.toString()}</p>
-      <p>
-        Component Rendered: <span ref={renderCountDisplayRef}></span> times
+      <div className="info">
+        <p>
+          <span className="label">Count:</span>
+          <span className="value">{count}</span>
+        </p>
+        <p>
+          <span className="label">Toggle:</span>
+          <span className="value">{toggle.toString()}</span>
+        </p>
+      </div>
+      <p className="renderCount">
+          <span className="label">Times Component Rendered:</span>
+          <span className="value" ref={renderCountDisplayRef}></span>
       </p>
-      <button onClick={handleUpdate}>Update State</button>
+      <button onClick={handleUpdate} className='button'>Update State</button>
     </div>
   );
 };

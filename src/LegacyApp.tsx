@@ -4,10 +4,12 @@ import './style.css';
 
 export const LegacyApp = () => {
   return (
-    <div className="legacy-container">
+    <div className="appContainer">
       <h1>React 17 - Automatic batching demo</h1>
-      <EventBatchingDemo title="Event handler - Batching" />
-      <TimeoutBatchingDemo title="Timeout - No Batching" />
+      <div>
+        <EventBatchingDemo title="Event handler - Batching" />
+        <TimeoutBatchingDemo title="Timeout - No Batching" />
+      </div>
     </div>
   );
 };

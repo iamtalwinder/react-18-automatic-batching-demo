@@ -1,4 +1,4 @@
-import ReactDOM from 'react-dom';
+import * as ReactDOM from 'react-dom';
 import { createRoot } from 'react-dom/client';
 
 import { LegacyApp } from './LegacyApp';
