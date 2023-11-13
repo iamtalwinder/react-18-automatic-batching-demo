@@ -54,7 +54,7 @@ To get a local copy up and running, follow these simple steps:
   ```
 
 ## Screenshots
-![Placeholder for screenshots](#)
+![Placeholder for screenshots](./assets/react-18-batching-demo.gif)
 
 ## Contributing
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
